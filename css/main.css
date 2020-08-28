@@ -1,0 +1,17 @@
+@import url("https://rsms.me/inter/inter.css");
+
+@tailwind base;
+
+html {
+  @apply font-inter antialiased;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    @apply font-inter-var;
+  }
+}
+
+@tailwind components;
+
+@tailwind utilities;
